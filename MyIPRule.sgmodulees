@@ -4,4 +4,4 @@
 
 [Rule]
 # 这里的 Proxy 需要替换成你主配置中实际存在的策略组名称
-IP-CIDR, 202.95.12.0/24, Google, no-resolve
+IP-CIDR, 202.95.12.0/24, Bing, no-resolve
