@@ -1,0 +1,7 @@
+#!name=自定义分流规则
+#!desc=将 202.95.12.0/24 分流至指定节点
+#!system=mac
+
+[Rule]
+# 这里的 Proxy 需要替换成你主配置中实际存在的策略组名称
+IP-CIDR, 202.95.12.0/24, Google, no-resolve
